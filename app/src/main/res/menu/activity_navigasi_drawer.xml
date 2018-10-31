@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/backup_of_ico_pack"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_border_color_black_24dp"
+            android:title="Input Laporan" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/terdek"
+            android:title="Terdekat" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ubah Profil" />
+    </group>
+
+    <item android:title="Lainya">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/abouut"
+                android:title="Tentang" />
+            <item
+                android:id="@+id/syaratket"
+                android:icon="@drawable/icon_tos_large"
+                android:title="Syarat Dan Ketentuan" />
+            <item
+                android:id="@+id/nav_feed"
+                android:icon="@drawable/feedb"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/iconini"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

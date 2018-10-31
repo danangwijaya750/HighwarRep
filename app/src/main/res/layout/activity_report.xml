@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_report"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marno.jalan.report">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </android.support.v7.widget.Toolbar>      
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:paddingTop="30dp"
+                android:text="Silahkan Kirim Pengaduan Laporan Yang Tidak Benar Dan Mengisi Alasan Anda.
+Terimakasih..."
+                android:gravity="center"
+                android:textSize="16dip"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:id="@+id/spinner3"
+                android:prompt="@string/pilih"
+                android:entries="@array/pengaduan"
+                android:background="@color/colorRow"
+                android:layout_weight="1" />
+
+            <!-- Email Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                >
+                <EditText android:id="@+id/input_alsan"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:inputType="textEmailAddress"
+                    android:background="@color/colorRow"
+                    android:hint="Pesan Anda"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorAccent"
+                    android:textAlignment="textStart"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_Kirm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@color/colorRow"
+                android:padding="12dp"
+                android:text="Kirim Pengaduan"
+                android:textColor="@color/colorAccent"/>
+
+
+        </LinearLayout>
+
+</RelativeLayout>

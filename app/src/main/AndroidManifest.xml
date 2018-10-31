@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="marno.jalan">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Highway Report"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".selamat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".homeScreen" />
+        <activity android:name=".Terdekat" />
+        <activity android:name=".input_laporan" />
+        <activity android:name=".signup" />
+        <activity android:name=".Terbaru" />
+        <activity android:name=".Login" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".syaratket" />
+        <activity
+            android:name=".navigasi"
+            android:label="@string/title_activity_navigasi"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ubahprofil" />
+        <activity android:name=".feedback" />
+        <activity android:name=".report"></activity>
+    </application>
+
+</manifest>

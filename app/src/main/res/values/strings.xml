@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Highway Report</string>
+    <string name="other">Other</string>
+    <string name="account">Account</string>
+    <string name="logout">logout</string>
+    <string-array name="kondisi">
+        <item>Ringan</item>
+        <item>Sedang</item>
+        <item>Berat</item>
+    </string-array>
+    <string-array name="pengaduan">
+        <item>Laporan Palsu</item>
+        <item>Laporan Tidak Senonoh</item>
+        <item>Laporan Berbau SARA</item>
+        <item>Mengaddung Unsur Penghinaan</item>
+    </string-array>
+
+    <string-array name="jenis">
+        <item>Jalan Rusak</item>
+        <item>APILL Rusak</item>
+        <item>Kemacetan Lalu Lintas</item>>
+    </string-array>
+    <string name="pilih"> -Pilih Jenis Laporan- </string>
+    <string name="kateg">-Pilih Kondisi Laporan- </string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="title_activity_navigasi">Highway Report</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
